@@ -1,0 +1,502 @@
+.biodiversitate-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.biodiversitate-navbar {
+  width: 100%;
+  height: 116px;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.biodiversitate-cta-btn {
+  color: var(--dl-color-gray-white);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fiveunits);
+  border-radius: var(--dl-radius-radius-radius24);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.biodiversitate-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.biodiversitate-left-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.biodiversitate-burger-menu {
+  display: none;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.biodiversitate-icon {
+  width: 36px;
+  height: 36px;
+}
+.biodiversitate-link {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.biodiversitate-link01 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.biodiversitate-link02 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.biodiversitate-link03 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.biodiversitate-link04 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.biodiversitate-link05 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.biodiversitate-right-side {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.biodiversitate-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100VH;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.biodiversitate-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.biodiversitate-image {
+  width: 50px;
+  align-self: center;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.biodiversitate-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.biodiversitate-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.biodiversitate-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.biodiversitate-link06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.biodiversitate-link07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.biodiversitate-link08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.biodiversitate-link09 {
+  text-decoration: none;
+}
+.biodiversitate-hero {
+  width: 100%;
+  height: 726px;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e8e5e5;
+}
+.biodiversitate-container3 {
+  width: 824px;
+  display: flex;
+  padding-right: 28px;
+  flex-direction: column;
+}
+.biodiversitate-text {
+  font-size: 3rem;
+  max-width: 450px;
+}
+.biodiversitate-text01 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.biodiversitate-image1 {
+  width: 649px;
+  height: 690px;
+  object-fit: cover;
+}
+.biodiversitate-banner {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.biodiversitate-container4 {
+  width: 795px;
+  height: 714px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.biodiversitate-text04 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.biodiversitate-text06 {
+  margin-right: 48px;
+}
+.biodiversitate-image2 {
+  width: 427px;
+  height: 776px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.biodiversitate-hero1 {
+  width: 100%;
+  display: flex;
+  padding: 32px;
+  max-width: 1400px;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+}
+.biodiversitate-image3 {
+  width: 392px;
+  height: 614px;
+  object-fit: cover;
+}
+.biodiversitate-container5 {
+  display: flex;
+  margin-left: 32px;
+  flex-direction: column;
+}
+.biodiversitate-text26 {
+  font-size: 3rem;
+}
+.biodiversitate-text27 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-right: 48px;
+}
+.biodiversitate-hero2 {
+  width: 100%;
+  height: 2090px;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.biodiversitate-container6 {
+  display: flex;
+  margin-right: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+}
+.biodiversitate-text33 {
+  font-size: 3rem;
+  max-width: 450px;
+}
+.biodiversitate-text34 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.biodiversitate-container7 {
+  flex: 0 0 auto;
+  width: 400px;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.biodiversitate-image4 {
+  width: 100%;
+  height: 518px;
+  object-fit: cover;
+}
+.biodiversitate-image5 {
+  width: 100%;
+  height: 518px;
+  object-fit: cover;
+}
+.biodiversitate-image6 {
+  width: 100%;
+  height: 518px;
+  object-fit: cover;
+}
+.biodiversitate-image7 {
+  width: 400px;
+  height: 498px;
+  object-fit: cover;
+}
+.biodiversitate-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.biodiversitate-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.biodiversitate-link10 {
+  display: contents;
+}
+.biodiversitate-icon04 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.biodiversitate-link11 {
+  display: contents;
+}
+.biodiversitate-icon06 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.biodiversitate-link12 {
+  display: contents;
+}
+.biodiversitate-icon08 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.biodiversitate-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.biodiversitate-icon10 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+@media(max-width: 991px) {
+  .biodiversitate-hero {
+    flex-direction: column;
+  }
+  .biodiversitate-container3 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    padding-right: 0px;
+  }
+  .biodiversitate-text {
+    text-align: center;
+  }
+  .biodiversitate-text01 {
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .biodiversitate-banner {
+    flex-direction: column;
+  }
+  .biodiversitate-container4 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .biodiversitate-text06 {
+    text-align: center;
+    margin-left: 48px;
+  }
+  .biodiversitate-image2 {
+    width: 288px;
+    height: 288px;
+  }
+  .biodiversitate-hero1 {
+    padding: 48px;
+    flex-direction: column;
+  }
+  .biodiversitate-container5 {
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .biodiversitate-text26 {
+    text-align: center;
+  }
+  .biodiversitate-text27 {
+    text-align: center;
+    padding-left: var(--dl-space-space-fourunits);
+  }
+  .biodiversitate-hero2 {
+    flex-direction: column;
+  }
+  .biodiversitate-container6 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    padding-right: 0px;
+  }
+  .biodiversitate-text33 {
+    text-align: center;
+  }
+  .biodiversitate-text34 {
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media(max-width: 767px) {
+  .biodiversitate-burger-menu {
+    display: flex;
+    padding: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius4);
+    background-color: var(--dl-color-gray-black);
+  }
+  .biodiversitate-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .biodiversitate-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .biodiversitate-text01 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .biodiversitate-image1 {
+    width: 80%;
+  }
+  .biodiversitate-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .biodiversitate-text06 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .biodiversitate-hero1 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .biodiversitate-hero2 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .biodiversitate-text34 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .biodiversitate-image7 {
+    width: 80%;
+  }
+}
+@media(max-width: 479px) {
+  .biodiversitate-cta-btn {
+    font-size: 16px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .biodiversitate-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .biodiversitate-container3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .biodiversitate-banner {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .biodiversitate-image2 {
+    width: 192px;
+    height: 192px;
+  }
+  .biodiversitate-hero1 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .biodiversitate-container5 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .biodiversitate-text27 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .biodiversitate-hero2 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .biodiversitate-container6 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

@@ -1,0 +1,360 @@
+.obiectiveturistice-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.obiectiveturistice-navbar {
+  width: 100%;
+  height: 116px;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.obiectiveturistice-cta-btn {
+  color: var(--dl-color-gray-white);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fiveunits);
+  border-radius: var(--dl-radius-radius-radius24);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.obiectiveturistice-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.obiectiveturistice-left-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.obiectiveturistice-burger-menu {
+  display: none;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.obiectiveturistice-icon {
+  width: 36px;
+  height: 36px;
+}
+.obiectiveturistice-link {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.obiectiveturistice-link01 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.obiectiveturistice-link02 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.obiectiveturistice-link03 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.obiectiveturistice-link04 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.obiectiveturistice-link05 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.obiectiveturistice-right-side {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.obiectiveturistice-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100VH;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.obiectiveturistice-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.obiectiveturistice-image {
+  width: 50px;
+  align-self: center;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.obiectiveturistice-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.obiectiveturistice-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.obiectiveturistice-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.obiectiveturistice-link06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.obiectiveturistice-link07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.obiectiveturistice-link08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.obiectiveturistice-link09 {
+  text-decoration: none;
+}
+.obiectiveturistice-hero {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 48px;
+  justify-content: center;
+}
+.obiectiveturistice-container3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.obiectiveturistice-text {
+  font-size: 3rem;
+}
+.obiectiveturistice-text01 {
+  margin-top: 32px;
+  text-align: left;
+  padding-left: 48px;
+  margin-bottom: 32px;
+  padding-right: 48px;
+}
+.obiectiveturistice-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 207px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.obiectiveturistice-container5 {
+  flex: 0 0 auto;
+  width: 702px;
+  height: 224px;
+  display: flex;
+  align-items: flex-start;
+}
+.obiectiveturistice-image1 {
+  width: 373px;
+  height: 100%;
+  object-fit: cover;
+}
+.obiectiveturistice-image2 {
+  width: 328px;
+  height: 100%;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-doubleunit);
+}
+.obiectiveturistice-hero1 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient(225deg, rgb(194, 229, 156) 0.00%,rgba(160, 206, 244, 0.67) 3.00%,rgba(160, 206, 244, 0.67) 100.00%),url("/playground_assets/booking-com-es-uno-de-los-buscadores-de-viajes-mas-populares-del-mundo-1500h.webp");
+}
+.obiectiveturistice-text17 {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+}
+.obiectiveturistice-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.obiectiveturistice-link10 {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.obiectiveturistice-link10:hover {
+  transform: scale(1.02);
+}
+.obiectiveturistice-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.obiectiveturistice-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.obiectiveturistice-link11 {
+  display: contents;
+}
+.obiectiveturistice-icon04 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.obiectiveturistice-link12 {
+  display: contents;
+}
+.obiectiveturistice-icon06 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.obiectiveturistice-link13 {
+  display: contents;
+}
+.obiectiveturistice-icon08 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.obiectiveturistice-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.obiectiveturistice-icon10 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+@media(max-width: 991px) {
+  .obiectiveturistice-hero {
+    flex-direction: column;
+  }
+  .obiectiveturistice-container3 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .obiectiveturistice-text {
+    text-align: center;
+  }
+  .obiectiveturistice-text01 {
+    text-align: center;
+  }
+  .obiectiveturistice-hero1 {
+    flex-direction: column;
+  }
+  .obiectiveturistice-text17 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .obiectiveturistice-burger-menu {
+    display: flex;
+    padding: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius4);
+    background-color: var(--dl-color-gray-black);
+  }
+  .obiectiveturistice-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .obiectiveturistice-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .obiectiveturistice-text01 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .obiectiveturistice-hero1 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .obiectiveturistice-cta-btn {
+    font-size: 16px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .obiectiveturistice-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .obiectiveturistice-container3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .obiectiveturistice-hero1 {
+    width: 100%;
+    padding: 32px;
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .obiectiveturistice-btn-group {
+    flex-direction: column;
+  }
+  .obiectiveturistice-link10 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}

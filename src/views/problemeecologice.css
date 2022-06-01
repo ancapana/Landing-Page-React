@@ -1,0 +1,382 @@
+.problemeecologice-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.problemeecologice-navbar {
+  width: 100%;
+  height: 116px;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.problemeecologice-cta-btn {
+  color: var(--dl-color-gray-white);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fiveunits);
+  border-radius: var(--dl-radius-radius-radius24);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.problemeecologice-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.problemeecologice-left-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.problemeecologice-burger-menu {
+  display: none;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.problemeecologice-icon {
+  width: 36px;
+  height: 36px;
+}
+.problemeecologice-link {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.problemeecologice-link01 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.problemeecologice-link02 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.problemeecologice-link03 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.problemeecologice-link04 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.problemeecologice-link05 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.problemeecologice-right-side {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.problemeecologice-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100VH;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.problemeecologice-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.problemeecologice-image {
+  width: 50px;
+  align-self: center;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.problemeecologice-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.problemeecologice-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.problemeecologice-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.problemeecologice-link06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.problemeecologice-link07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.problemeecologice-link08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.problemeecologice-link09 {
+  text-decoration: none;
+}
+.problemeecologice-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.problemeecologice-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.problemeecologice-container05 {
+  flex: 0 0 auto;
+  width: 586px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.problemeecologice-container06 {
+  flex: 0 0 auto;
+  width: 586px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.problemeecologice-container07 {
+  flex: 0 0 auto;
+  width: 586px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.problemeecologice-container08 {
+  flex: 0 0 auto;
+  width: 586px;
+  height: 610px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.problemeecologice-banner {
+  width: 588px;
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  padding-right: 12px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.problemeecologice-text {
+  text-align: center;
+}
+.problemeecologice-text01 {
+  max-width: 1400px;
+  align-self: flex-start;
+  margin-top: 32px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.problemeecologice-text02 {
+  text-align: left;
+}
+.problemeecologice-text05 {
+  text-align: left;
+}
+.problemeecologice-text08 {
+  text-align: left;
+}
+.problemeecologice-text11 {
+  text-align: left;
+}
+.problemeecologice-container09 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.problemeecologice-image1 {
+  width: 506px;
+  height: 317px;
+  object-fit: cover;
+}
+.problemeecologice-banner1 {
+  width: 746px;
+  display: flex;
+  align-items: center;
+  padding-top: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 48px;
+  justify-content: space-between;
+}
+.problemeecologice-text14 {
+  text-align: center;
+}
+.problemeecologice-text16 {
+  max-width: 1400px;
+  margin-top: 32px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.problemeecologice-text19 {
+  text-align: left;
+}
+.problemeecologice-link10 {
+  color: #000000;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: #000000;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: transparent;
+}
+.problemeecologice-link10:hover {
+  transform: scale(1.02);
+}
+.problemeecologice-text38 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.problemeecologice-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.problemeecologice-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.problemeecologice-link11 {
+  display: contents;
+}
+.problemeecologice-icon04 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.problemeecologice-link12 {
+  display: contents;
+}
+.problemeecologice-icon06 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.problemeecologice-link13 {
+  display: contents;
+}
+.problemeecologice-icon08 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.problemeecologice-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.problemeecologice-icon10 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+@media(max-width: 991px) {
+  .problemeecologice-text01 {
+    max-width: 100%;
+  }
+  .problemeecologice-text16 {
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .problemeecologice-burger-menu {
+    display: flex;
+    padding: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius4);
+    background-color: var(--dl-color-gray-black);
+  }
+  .problemeecologice-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .problemeecologice-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .problemeecologice-text01 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .problemeecologice-banner1 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .problemeecologice-text16 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .problemeecologice-cta-btn {
+    font-size: 16px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .problemeecologice-banner {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .problemeecologice-banner1 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .problemeecologice-link10 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}
